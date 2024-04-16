@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>bootstrap</title>
+<meta charset="utf-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.fa-map-marker{
+text-decoration:none;
+color:#70b9b0;
+font-size:40px;
+margin-left:5px;
+}
+.fa-envelope-o{
+text-decoration:none;
+color:#70b9b0;
+font-size:35px;
+margin-top:20px;
+}
+.fa-mobile{
+text-decoration:none;
+color:#70b9b0;
+font-size:50px;
+margin-top:20px;
+margin-left:8px;
+}
+.fa-map-marker:hover{
+color:#70b9b0;
+}
+.fa-envelope-o:hover{
+color:#70b9b0;
+}
+.fa-mobile:hover{
+color:#70b9b0;
+}
+.sn{
+color:#666966;
+font-size:15px;
+}
+.fa-twitter{
+text-decoration:none;
+padding:10px;
+background-color:white;
+color:#70b9b0;
+border:1px solid #70b9b0;
+border-radius:20px;
+}
+.fa-twitter:hover{
+background-color:#70b9b0;
+color:white;
+}
+.fa-facebook{
+text-decoration:none;
+padding:10px;
+background-color:white;
+color:#70b9b0;
+border:1px solid #70b9b0;
+border-radius:20px;
+width:37px;
+}
+.fa-facebook:hover{
+background-color:#70b9b0;
+color:white;
+}
+.fa-instagram{
+text-decoration:none;
+padding:10px;
+background-color:white;
+color:#70b9b0;
+border:1px solid #70b9b0;
+border-radius:20px;
+}
+.fa-instagram:hover{
+background-color:#70b9b0;
+color:white;
+}
+.fa-linkedin{
+text-decoration:none;
+padding:10px;
+background-color:white;
+color:#70b9b0;
+border:1px solid #70b9b0;
+border-radius:20px;
+width:38px;
+}
+.fa-linkedin:hover{
+background-color:#70b9b0;
+color:white;
+}
+input{
+box-sizing:box;
+padding:4px 8px;
+border:1px solid black;
+-webkit-transition:0.3s;
+transition:0.2s;
+outline:none;
+}
+input:focus{
+border:1px solid #2482c9;
+}
+</style>
+  </head>
+  <body>
+  <nav class="navbar navbar-expand-sm navbar-dark fixed-top" style="background-color:#02332a;padding:1px;">
+<div class="container-fluid">
+<a class="navbar-brand" style="margin-left:80px;font-size:35px;" href="#">Amoeba</a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#ne1">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="ne1">
+<ul class="navbar-nav" style="margin-left:430px;">
+<li class="nav-item">
+   <a class="nav-link" href="BOOTSTRAP pt-Home.html">Home</a></li>
+<li class="nav-item">
+   <a class="nav-link" href="BOOTSTRAP pt-Aboutus.html">About Us</a></li>
+<li class="nav-item">
+   <a class="nav-link" href="BOOTSTRAP pt-Services.html">Services</a></li>
+<li class="nav-item">
+   <a class="nav-link" href="BOOTSTRAP pt-Portfolio.html">Portfolio</a></li>
+<li class="nav-item">
+   <a class="nav-link" href="BOOTSTRAP pt-Team.html">Team</a></li>
+<li class="nav-item dropdown">
+   <a class="nav-link dropdown toggle" data-bs-toggle="dropdown" role="button" href="">Dropdown</a>
+   <ul class="dropdown-menu">
+   <li><a class="dropdown-item" href="">Dropdown 1</a></li>
+   <li><a class="dropdown-item" href="">Dropdown 2</a></li>
+   <li><a class="dropdown-item" href="">Dropdown 3</a></li>
+   <li><a class="dropdown-item" href="">Dropdown 4</a></li>
+   </ul>
+   </li>
+<li class="nav-item">
+   <a class="nav-link active" href="">Contact</a></li>
+   </ul>
+   </div>
+</nav>
+<div style="background-color:#edf4f5;width:100%;height:750px;padding-top:10px;">
+<div style="text-align:center;margin-top:150px;">
+<p style="font-size:35px;">Contact Us</p>
+<p style="color:#666966;">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.
+ Sit sint consectetur velit. Quisquam quos quisquam <br>
+cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+</div>
+
+<div class="container mt-5">
+<form style="width:35%;float:right;">
+<label for="name">
+<input type="name" id="name" placeholder="Your Name" style="width:410px" required>
+</label><br><br>
+
+<label for="email">
+<input type="email" id="email" placeholder="Your Email" style="width:410px" required>
+</label><br><br>
+
+<input type="text" name="Subject" placeholder="Subject" style="width:410px" required><br><br>
+
+<label for="comment">
+<textarea type="comment" name="text" id="comment" placeholder="Message" cols="53" rows="5" required></textarea></label>
+   <button type="button" 
+style="margin-top:30px;margin-left:130px;padding:5px;width:150px;background-color:#79d1b8;color:white;border:1px solid #79d1b8;">
+       Send Message</button>
+</form>
+
+<div style="width:25%;float:right;">
+<a class="fa fa-map-marker" href=""><span class="sn">A108 Adam Street<br>New York, NY 535022</span></a>
+<a class="fa fa-envelope-o" href=""><span class="sn">info@example.com</span></a>
+<a class="fa fa-mobile" href=""><span class="sn">+1 5589 55488 55s</span></a>
+</div>
+
+<div style="width:40%;float:right;">
+<p style="font-size:35px;color:#70b9b0;">Amoeba</p>
+<p style="color:#666966;">Cras fermentum odio eu feugiat. Justo eget magna<br>
+ fermentum iaculis eu non diam phasellus. Scelerisque felis<br>
+ imperdiet proin fermentum leo. Amet volutpat consequat<br>
+ mauris nunc congue.</p>
+<div>
+<a class="fa fa-twitter" href=""></a>
+<a class="fa fa-facebook" href=""></a>
+<a class="fa fa-instagram" href=""></a>
+<a class="fa fa-linkedin" href=""></a>
+</div>
+</div>
+</div>
+</div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.221805799687!2d-74.00407992510463!3d40.71313343754795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a23e28c1191%3A0x49f75d3281df052a!2s150%20Park%20Row%2C%20New%20York%2C%20NY%2010007%2C%20USA!5e0!3m2!1sen!2sin!4v1699367149961!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<div style="background-color:#02261a;height:100px;text-align:center;padding-top:15px;">
+<p class="text-white">© Copyright <b>Amoeba.</b> All Rights Reserved</p>
+<p class="text-white">Designed by <span style="color:#089968;cursor:pointer;">BootstrapMade</span></p>
+</div>
+</body>
+</html>
